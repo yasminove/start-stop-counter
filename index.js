@@ -6,7 +6,6 @@ function timedCounting(){
     timer = setTimeout(timedCounting, 1000);
 }
 
-
 function stopCounting(){
   clearTimeout(timer)
 }
