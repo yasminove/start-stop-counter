@@ -5,3 +5,7 @@ function timedCounting(){
     start = start + 1;
     timer = setTimeout(timedCounting, 1000);
 }
+
+function stopCounting(){
+  clearTimeout(timer)
+}
